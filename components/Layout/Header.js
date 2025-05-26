@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
-import ButtonRegistrate from "./Buttons/ButtonRegistrate";
+import ButtonRegistrate from "../Buttons/ButtonRegistrate";
 
 const Header = () => {
     const [scrollActive, setScrollActive] = useState(false);
