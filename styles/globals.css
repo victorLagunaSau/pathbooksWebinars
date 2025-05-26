@@ -1,0 +1,114 @@
+/* purgecss start ignore */
+
+@tailwind base;
+@tailwind components;
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  @apply bg-white-500;
+}
+p {
+  @apply text-black-100;
+}
+.animation-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  height: 2px;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  @apply w-0 bg-blue-500 left-1/2 block bottom-0 absolute;
+}
+.animation-active:after {
+  @apply left-0 w-full;
+}
+.animation-hover:hover:after {
+  @apply left-0 w-full;
+}
+
+li.custom-list:before {
+  content: "\2022"; /* bullet point, for screen readers */
+  text-indent: -9999999px; /* move the bullet point out of sight */
+
+  width: 0.4em;
+  height: 1em;
+  background-repeat: no-repeat;
+
+  background-size: 0.4em 0.7em;
+  background-position: 0 0.3em;
+  font-size: 300%;
+  top: -0.35em;
+  @apply absolute block;
+}
+li.circle-check:before {
+  background-image: url("/assets/icon/checklist.svg");
+  left: -0.7em;
+  top: -0.4em;
+}
+li.check:before {
+  left: -0.5em;
+  background-image: url("/assets/icon/jam_check.svg");
+  top: -0.5em;
+  font-size: 400%;
+}
+/* Slideshow */
+.slick-dots li {
+  @apply inline-block;
+}
+.slick-dots span {
+  @apply bg-gray-500;
+}
+.slick-dots .slick-active span {
+  @apply bg-blue-500 rounded-l-full rounded-r-full w-12;
+}
+
+
+@keyframes marquee-slow {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-slow2 {
+    0% { transform: translateX(50%); }
+    100% { transform: translateX(0); }
+}
+
+.animate-marquee-slow {
+    animation: marquee-slow 400s linear infinite;
+    will-change: transform;
+}
+
+.animate-marquee-slow2 {
+    animation: marquee-slow2 400s linear infinite;
+    will-change: transform;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .prose-center img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+
+.your-content-class p,
+.your-content-class img,
+.your-content-class h1,
+.your-content-class h2 {
+  margin-bottom: 1.5rem; /* espacio abajo entre cada bloque */
+}
+
+.your-content-class img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* para centrar imágenes */
+}
+/* purgecss end ignore */
+@tailwind utilities;
+/* purgecss start ignore */
+/* purgecss end ignore */
