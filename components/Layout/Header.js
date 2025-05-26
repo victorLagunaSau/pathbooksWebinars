@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
-import ButtonComprar from "../Buttons/ButtonComprar";
+import ButtonRegistrate from "./Buttons/ButtonRegistrate";
 
 const Header = () => {
     const [scrollActive, setScrollActive] = useState(false);
@@ -109,7 +109,7 @@ const Header = () => {
                             />
                         </ul>
 
-                        <ButtonComprar/>
+                        <ButtonRegistrate/>
 
 
                         {/* Menú hamburguesa */}
