@@ -46,13 +46,13 @@ const Home001 = () => {
                             variants={scrollAnimation}
                         >
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white-500">
-                                Formar lectores es formar<span className="text-yellow-500"> decisiones</span>
+                                Leer en familia deja<span className="text-yellow-500"> huellas</span> que duran toda la vida
                             </h1>
                             <p className="mt-6 text-lg md:text-xl text-white-100">
-                                Un espacio para madres y padres que quieren leer con sus hijos sin presión, culpa ni peleas.
+                                Este es un espacio para quienes ven en la lectura una herramienta para crecer, comprenderse y descubrir todos los beneficios que aporta a las infancias.
                             </p>
                             <p className="mt-4 text-xl md:text-2xl text-white-100 font-semibold">
-                                Un webinar gratuito de 40 minutos para reconectar con la lectura en casa.
+                                Un webinar gratuito de 45 minutos para reconectar con la lectura en casa.
                             </p>
 
                             <div className="mt-8 flex justify-center md:justify-start">
