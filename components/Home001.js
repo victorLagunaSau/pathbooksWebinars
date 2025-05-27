@@ -54,7 +54,12 @@ const Home001 = () => {
                             <p className="mt-4 text-xl md:text-2xl text-white-100 font-semibold">
                                 Un webinar gratuito de 45 minutos para reconectar con la lectura en casa.
                             </p>
-
+                            <p className="mt-4 text-xl md:text-2xl text-yellow-500 font-semibold">
+                                 ¿Y si esta fuera la pieza que faltaba para que tu hijo ame leer?.
+                            </p>
+                             <h2 className="mt-4 text-2xl md:text-4xl text-yellow-500 font-semibold">
+                              Regístrate ya.
+                            </h2>
                             <div className="mt-8 flex justify-center md:justify-start">
                                 <ButtonRegistrate />
                             </div>
