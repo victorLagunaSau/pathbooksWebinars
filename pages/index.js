@@ -8,7 +8,8 @@ import ModuleDivision01 from "../components/ModuleDivision01";
 import Home003 from "../components/Home003";
 import Home004 from "../components/Home004";
 import Home005 from "../components/Home005";
-// import Home006 from "../components/Home006";
+import Home006 from "../components/Home006";
+import HomeFormRegistro from "../components/HomeFormRegistro";
 // import HomeComprar from "../components/HomeComprar";
 // import ModuleDivision03 from "../components/ModuleDivision03";
 // import Demo from "../components/Demo";
@@ -28,7 +29,8 @@ export default function Home() {
                 <Home004/>
                 <Home005/>
                 {/*<ModuleDivision03/>*/}
-                {/*<Home006/>*/}
+                <Home006/>
+                <HomeFormRegistro/>
                 {/*<HomeComprar/>*/}
 
 
