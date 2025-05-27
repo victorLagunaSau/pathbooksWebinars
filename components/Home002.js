@@ -14,9 +14,9 @@ const Home002 = () => {
                 {/* Título centrado */}
                 <ScrollAnimationWrapper>
                     <motion.div className="mt-8 mx-auto text-center" variants={scrollAnimation}>
-                        <h1 className="text-4xl md:text-6xl font-bold text-primary">
-                            Redescubre la lectura en familia
-                        </h1>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+                            ¿Quieres que tu hijo lea más? Empieza así.
+                        </h2>
                     </motion.div>
                 </ScrollAnimationWrapper>
 
@@ -25,17 +25,15 @@ const Home002 = () => {
                     <ScrollAnimationWrapper className="w-full md:w-1/2">
                         <motion.div className="text-center" variants={scrollAnimation}>
                             <h2 className="text-2xl sm:text-2xl lg:text-4xl font-bold text-black-100">
-                                Un espacio para madres y padres que desean leer con amor
+                                Sabemos que no siempre es fácil motivarlos a leer… pero compartir historias puede marcar su camino:
                             </h2>
+                                                        <p className="mt-4 text-lg md:text-xl text-gray-700 mb-4">
+                                Fortalece su pensamiento, su autoestima y crea recuerdos que duran toda la vida.
+                            </p>
                             <p className="mt-4 text-lg md:text-xl text-gray-700 mb-4">
-                                Sabemos lo frustrante que puede ser querer ayudar a tu hijo a leer más…
-                                Pero existe otra forma. Una más amorosa. Más respetuosa. Y mucho más efectiva.
+                                Descubre la lectura como una herramienta para formar personas curiosas, seguras y empáticas.
                             </p>
-                            <p className="text-lg md:text-xl text-gray-700">
-                                ✨ Te invitamos a un espacio cálido donde redescubrirás la lectura como lo que siempre debió ser:
-                                <br />
-                                <span className="font-semibold text-black-100">Un momento de conexión, crecimiento y disfrute en familia.</span>
-                            </p>
+
 
                             <div className="mt-8 flex justify-center">
                                 <ButtonRegistrate />
