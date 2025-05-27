@@ -5,7 +5,7 @@ import Home002 from "../components/Home002";
 
 import ModuleDivision01 from "../components/ModuleDivision01";
 // import ModuleDivision02 from "../components/ModuleDivision02";
-// import Home003 from "../components/Home003";
+import Home003 from "../components/Home003";
 import Home004 from "../components/Home004";
 import Home005 from "../components/Home005";
 // import Home006 from "../components/Home006";
@@ -21,8 +21,9 @@ export default function Home() {
                 <Home001/>
                 <ModuleDivision01/>
                 <Home002/>
+
                 {/*<Demo/>*/}
-                {/*<Home003/>*/}
+                <Home003/>
                 {/*<ModuleDivision02/>*/}
                 <Home004/>
                 <Home005/>

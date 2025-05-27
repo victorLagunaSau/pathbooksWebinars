@@ -9,7 +9,7 @@ const Home004 = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
     return (
-        <div className="bg-white w-full pt-8 pb-16 md:pt-20 md:pb-20" id="regalo-lector">
+        <div className="bg-white w-full pt-8 pb-16 md:pt-20 md:pb-20" id="queaprenderas">
             <div className="container mx-auto px-6 md:px-12">
                 <ScrollAnimationWrapper>
                     <motion.div

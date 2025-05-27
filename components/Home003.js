@@ -8,11 +8,11 @@ const Home003 = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="bg-gradient-to-b from-blue-100 to-white w-full overflow-hidden py-12 mt-8 mb-16" id="metodologiacomplemento">
+    <div className="bg-gradient-to-b from-blue-100 to-white w-full overflow-hidden py-12 mt-8 mb-16" id="porqueasistir">
       <div className="container mx-auto px-4">
         {/* Encabezado principal */}
         <ScrollAnimationWrapper>
-          <motion.div className="mx-auto text-center mb-10" variants={scrollAnimation}>
+          <motion.div className="mx-auto text-center mb-10 mt-10" variants={scrollAnimation}>
             <h2 className="text-3xl md:text-5xl font-extrabold text-blue-900 leading-tight">
               Leer nunca fue tan emocionante
             </h2>

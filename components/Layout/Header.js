@@ -8,7 +8,7 @@ const Header = () => {
     const indicatorRef = useRef(null);
     const buttonRefs = useRef({});
 
-    const sections = ["home", "metodologia", "contenido"];
+    const sections = ["home", "porqueasistir", "queaprenderas"];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -96,9 +96,9 @@ const Header = () => {
                                     >
                                         {section === "home"
                                             ? "Inicio"
-                                            : section === "metodologia"
-                                                ? "¿Por qué Pathbooks ?"
-                                                : "Contenido"}
+                                            : section === "porqueasistir"
+                                                ? "¿Por qué asistir?"
+                                                : "¿Que aprenderás?"}
                                     </a>
                                 </li>
                             ))}
@@ -152,9 +152,9 @@ const Header = () => {
                                     >
                                         {section === "home"
                                             ? "Inicio"
-                                            : section === "metodologia"
-                                                ? "¿Por qué Pathbooks?"
-                                                : "Contenido"}
+                                            : section === "porqueasistir"
+                                                ? "¿Por qué asistir?"
+                                                : "¿Que aprenderás?"}
                                     </a>
                                 </li>
                             ))}
