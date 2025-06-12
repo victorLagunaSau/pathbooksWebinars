@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ButtonRegistrate from "./Buttons/ButtonRegistrate";
 import {
   Gift,
   BookOpen,
@@ -75,9 +76,13 @@ const Home007 = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="bg-yellow-500 hover:bg-yellow-400 text-white-500 font-bold py-3 px-8 rounded-full text-lg shadow-md transition">
-            ¡Quiero mis 15 días gratis!
-          </button>
+              <a
+                href="#registro"
+                className="btn btn-primary bg-yellow-500 hover:bg-yellow-700 text-black-100 px-10 py-3 rounded-full transition-all border-yellow-700 border-4 shadow-sm shadow-black-500"
+              >
+              ¡Quiero mis 15 días gratis!
+              </a>
+
         </div>
       </div>
     </div>
